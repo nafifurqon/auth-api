@@ -13,5 +13,8 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "no-underscore-dangle": "off",
+        "class-methods-use-this": "off",
+        "no-console": ["error", { "allow": ["warn", "error"] }]
     }
 }
